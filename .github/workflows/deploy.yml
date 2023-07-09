@@ -24,4 +24,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /var/www/html
+            git init
             git pull origin master
