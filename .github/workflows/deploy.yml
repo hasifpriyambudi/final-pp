@@ -21,7 +21,7 @@ jobs:
         with:
           host: 103.175.219.185
           username: sayuran
-          password: Inipasskuat123
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /var/www/html
             git pull origin master
