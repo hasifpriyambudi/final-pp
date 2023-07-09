@@ -23,6 +23,6 @@ jobs:
           username: sayuran
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            sudo su
             cd /var/www/html
+            sudo su
             git pull origin master
