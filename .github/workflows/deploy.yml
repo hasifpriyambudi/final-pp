@@ -21,7 +21,7 @@ jobs:
         with:
           host: 103.175.219.185
           username: sayuran
-          key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCJGIWCTnpdFSu9f3Ck21OFN9x7714WIWv5p2JjMnxYE5sBFTBvki3Ql4zwZjcuVppHO9xXj1ey6jqpDbhnft+4DNq0WgBBAsblHXEHkeYLRAJBYrgmdeSNlyaLQRVR9QFHq++Uc9lYmBAnJw7FeTdxGsGabd81alN4dpBmhTuyG+zSZY0ZM3TLmn6MLt8pUESCCzFwVn3edqPC9xgcZWt5vb9J5yfjW/WRbK3Y8IxfGWDmWvB5OPWA3yqZlC+0cm/2mMYv2QauJyHrr9i4M7qh7a+Y2/Tr8aRlhDpgjyfxT7CQqdswbE/W7zeK3FGbPTML4PXFxGwsHqa/qnD7Iovt 
+          key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCJGIWCTnpdFSu9f3Ck21OFN9x7714WIWv5p2JjMnxYE5sBFTBvki3Ql4zwZjcuVppHO9xXj1ey6jqpDbhnft+4DNq0WgBBAsblHXEHkeYLRAJBYrgmdeSNlyaLQRVR9QFHq++Uc9lYmBAnJw7FeTdxGsGabd81alN4dpBmhTuyG+zSZY0ZM3TLmn6MLt8pUESCCzFwVn3edqPC9xgcZWt5vb9J5yfjW/WRbK3Y8IxfGWDmWvB5OPWA3yqZlC+0cm/2mMYv2QauJyHrr9i4M7qh7a+Y2/Tr8aRlhDpgjyfxT7CQqdswbE/W7zeK3FGbPTML4PXFxGwsHqa/qnD7Iovt
           script: |
             cd /var/www/html
             git pull origin master
