@@ -25,3 +25,4 @@ jobs:
           script: |
             cd /var/www/html
             git pull origin master --force
+            composer install
