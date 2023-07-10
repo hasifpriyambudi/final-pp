@@ -30,4 +30,5 @@ jobs:
             composer install
             cd /var/www/html/public/newAssets/
             npm install
+            unzip vendor.zip
 
