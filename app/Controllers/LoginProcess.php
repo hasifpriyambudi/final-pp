@@ -79,6 +79,7 @@ class LoginProcess extends BaseController
 								'id_user'	=> $data['id_user'],
 								'id_kasir' => $dataKasir['id_kasir'],
 								'uname' => $data['uname'],
+								'nama' => $dataKasir['nama'],
 								'logged_in'	=> true,
 								'level' => $data['level'],
 							];

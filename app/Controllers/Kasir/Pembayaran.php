@@ -38,6 +38,10 @@ class Pembayaran extends BaseController
         // Cek Database
         $cekDB = $this->promoModel->select("id_promo, potongan_persen, minimum_pembelian, kuota")->where($kondisi)->get()->getRowArray();
 
+        if($kode_promo == ''){
+            $kode_promo = null;
+        }
+
         // Cek Harga
         $cart = \Config\Services::cart();
         if($cekDB){

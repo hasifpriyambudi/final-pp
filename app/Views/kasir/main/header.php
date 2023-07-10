@@ -4,7 +4,7 @@
         <div class="sidebar-brand-icon">
             <i class="fas fa-circle-user"></i> <!-- or fa-seedling-->
         </div>
-        <div class="sidebar-brand-text mx-3">User <sup>1</sup></div>
+        <div class="sidebar-brand-text mx-3">User <sup><?= session('nama'); ?></sup></div>
     </a>
     <!-- Divider -->
     <hr class="sidebar-divider my-0">
