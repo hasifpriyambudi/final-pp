@@ -48,7 +48,7 @@
                             <?php foreach ($keranjang as $key => $value) { ?>
                                 <a class="dropdown-item d-flex align-items-center">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle img-size-50" src="<?= base_url('gambar/produk/' . $value['options']['gambar']) ?>"
+                                        <img class="rounded-circle img-size-50" src="<?= base_url('public/gambar/produk/' . $value['options']['gambar']) ?>"
                                             alt="...">
                                         <!-- <div class="status-indicator bg-success"></div> -->
                                     </div>

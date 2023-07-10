@@ -18,7 +18,7 @@
     <div class="col-md-6 col-xs-12">
       <div class="col-md-12">
         <div style="text-align:center">
-          <img src="<?= base_url(); ?>gambar/<?= $detail['gambar_utama'];?>" id="previewImage" class="m-3" width="200" height="200">
+          <img src="<?= base_url(); ?>public/gambar/<?= $detail['gambar_utama'];?>" id="previewImage" class="m-3" width="200" height="200">
         </div>
       </div>
       <?= form_open_multipart('admin/proses/info-situs/update-gambar') ?>
