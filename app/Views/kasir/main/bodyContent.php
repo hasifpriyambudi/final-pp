@@ -53,10 +53,10 @@
         <!-- Scroll to Top Button-->
         <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
         <!-- Bootstrap core JavaScript-->
-        <script src="<?= base_url('/newAssets/vendor/jquery/jquery.min.js') ?>"></script>
-        <script src="<?= base_url('/newAssets/vendor/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+        <script src="<?= base_url('public/newAssets/vendor/jquery/jquery.min.js') ?>"></script>
+        <script src="<?= base_url('public/newAssets/vendor/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
         <!-- Core plugin JavaScript-->
-        <script src="<?= base_url('/newAssets/vendor/jquery-easing/jquery.easing.min.js') ?>"></script>
+        <script src="<?= base_url('public/newAssets/vendor/jquery-easing/jquery.easing.min.js') ?>"></script>
         <!-- Custom scripts for all pages-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-sb-admin-2/4.1.3/js/sb-admin-2.min.js"></script>
         <script>
