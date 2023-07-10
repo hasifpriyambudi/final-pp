@@ -26,3 +26,6 @@ jobs:
             cd /var/www/html
             git pull origin master --force
             composer install
+            cd /var/www/html/public/newAssets/
+            npm install
+
