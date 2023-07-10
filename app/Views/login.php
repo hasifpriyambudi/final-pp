@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <!-- CSS & JS -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <link href="/public/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="/public/assets/js/bootstrap.bundle.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -19,7 +19,7 @@
         body {
             /* background-image: linear-gradient(135deg, #00CC88 10%, #038373 100%); */
             /* background-color: #00CC88; */
-            background-image: url('../assets/img/bg3.svg');
+            background-image: url('../public/assets/img/bg3.svg');
             background-size: cover;
             /* background-color: none; */
         }
