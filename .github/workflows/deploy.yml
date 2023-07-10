@@ -24,7 +24,9 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /var/www/html
-            git pull origin master --force
+            git stash
+            git stash drop
+            git pull origin master
             composer install
             cd /var/www/html/public/newAssets/
             npm install
